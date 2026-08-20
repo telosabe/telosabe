@@ -828,9 +828,9 @@
   });
 
   window.currentLang = 'ru';
-  function setLang(btn, lang){
-    document.querySelectorAll('.lang button').forEach(b=>b.classList.remove('active'));
-    btn.classList.add('active');
+  function applyLang(lang){
+    document.querySelectorAll('.lang button').forEach(b=>
+      b.classList.toggle('active', b.textContent.trim().toLowerCase()===lang));
     window.currentLang = lang;
     document.documentElement.lang = lang;
     document.querySelectorAll('[data-en]').forEach(el=>{
@@ -839,6 +839,17 @@
     });
     if(typeof renderRev==='function') renderRev();
   }
+  function setLang(btn, lang){
+    applyLang(lang);
+    try{ history.replaceState(null,'', lang==='en' ? '?lang=en' : '?lang=ru'); }catch(e){}
+  }
+  // язык из ссылки: ?lang=ru / ?lang=en (по умолчанию — русский)
+  (function(){
+    var p = new URLSearchParams(location.search).get('lang');
+    var h = location.hash.replace('#','');
+    var l = (p || h);
+    if(l==='en' || l==='ru') applyLang(l);
+  })();
 
   // появление блоков при скролле
   const io = new IntersectionObserver((entries)=>{
