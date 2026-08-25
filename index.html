@@ -9,6 +9,10 @@
 <meta name="description" content="Telo.Sabe — массаж, йога и рейки в Барселоне. Пространство телесных практик: снятие напряжения, работа с триггерными точками, восстановление энергии и мягкое возвращение к себе. Запись на сессию.">
 <meta name="keywords" content="массаж Барселона, массаж в Барселоне, расслабляющий массаж Барселона, массаж триггерных точек, йога Барселона, рейки Барселона, телесные практики, снятие напряжения, запись на массаж">
 <link rel="canonical" href="https://telosabe.com/">
+<link rel="alternate" hreflang="ru" href="https://telosabe.com/?lang=ru">
+<link rel="alternate" hreflang="es" href="https://telosabe.com/?lang=es">
+<link rel="alternate" hreflang="en" href="https://telosabe.com/?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://telosabe.com/">
 <meta name="robots" content="index, follow">
 <meta name="author" content="Telo.Sabe">
 <meta name="google-site-verification" content="ZEk6_n-PENSZ5twBqI3azbRq8-Q3rEnUrUdNRJ-so4Q" />
@@ -435,19 +439,21 @@
     <div class="topleft fade">
       <div class="logo">TELO.SABE</div>
       <nav class="mainnav">
-        <a href="#about" data-en="about me">кто я</a>
-        <a href="#services" data-en="services">услуги</a>
-        <a href="#experience" data-en="experience">опыт</a>
-        <a href="#reviews" data-en="reviews">отзывы</a>
+        <a href="#about" data-en="about me" data-es="quién soy">кто я</a>
+        <a href="#services" data-en="services" data-es="servicios">услуги</a>
+        <a href="#experience" data-en="experience" data-es="experiencia">опыт</a>
+        <a href="#reviews" data-en="reviews" data-es="reseñas">отзывы</a>
       </nav>
     </div>
     <div class="topright fade">
       <div class="lang">
         <button class="active" onclick="setLang(this,'ru')">RU</button>
         <span class="sep">/</span>
+        <button onclick="setLang(this,'es')">ES</button>
+        <span class="sep">/</span>
         <button onclick="setLang(this,'en')">EN</button>
       </div>
-      <a class="top-wa" href="https://wa.me/34603526806" target="_blank"><span data-en="Message">Написать</span>
+      <a class="top-wa" href="https://wa.me/34603526806" target="_blank"><span data-en="Message" data-es="Escríbeme">Написать</span>
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
     </div>
@@ -455,11 +461,11 @@
 
   <!-- left: text -->
   <div class="hero-left">
-    <div class="eyebrow reveal d6" data-en="Massage · Reiki · Yoga">Массаж · Рейки · Йога</div>
-    <h1 class="hero-h1 reveal d1" data-en="A space to exhale<br>and come back<br>to yourself">Пространство, где можно выдохнуть и вернуться к&nbsp;себе</h1>
+    <div class="eyebrow reveal d6" data-en="Massage · Reiki · Yoga" data-es="Masaje · Reiki · Yoga">Массаж · Рейки · Йога</div>
+    <h1 class="hero-h1 reveal d1" data-en="A space to exhale<br>and come back<br>to yourself" data-es="Un espacio para exhalar<br>y reconectar<br>contigo">Пространство, где можно выдохнуть и вернуться к&nbsp;себе</h1>
     <div class="hero-cta">
       <a class="btn-wa reveal d3" href="https://wa.me/34603526806" target="_blank">
-        <span data-en="Message on WhatsApp">Написать в WhatsApp</span>
+        <span data-en="Message on WhatsApp" data-es="Escríbeme por WhatsApp">Написать в WhatsApp</span>
         <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
       <a class="link-ig reveal d4" href="https://instagram.com/telo.sabe" target="_blank">
@@ -471,7 +477,7 @@
   <!-- right: photo -->
   <div class="hero-right fade">
     <div class="hero-photo">
-      <img src="hero.jpg" alt="Telo.Sabe" onerror="this.style.display='none'">
+      <img src="hero.jpg?v=3" alt="Telo.Sabe" onerror="this.style.display='none'">
     </div>
     <div class="notch a"></div>
     <div class="notch b"></div>
@@ -485,17 +491,17 @@
 <section class="about-sec" id="about">
   <div class="about-grid">
     <div class="about-photo r">
-      <img src="about.jpg" alt="Алёна — Telo.Sabe">
+      <img loading="lazy" decoding="async" src="about.jpg?v=3" alt="Алёна — Telo.Sabe">
       <div class="notch a"></div>
       <div class="notch b"></div>
       <div class="notch c"></div>
     </div>
     <div class="about-text">
-      <h2 class="about-st r delay1" data-en="My name is Alyona.<br>I help people feel their body again — through touch, movement and energy.">Меня зовут Алёна.<br>Я помогаю людям снова ощутить своё тело через прикосновение, движение и энергию.</h2>
-      <p class="about-p r delay2" data-en="I came to this work through my own experience of tension and fatigue, when I realised the body holds far more than we are used to noticing.">К этой работе я пришла через собственный опыт напряжения и усталости, когда поняла, что тело хранит гораздо больше, чем мы привыкли замечать.</p>
-      <p class="about-p r delay2" data-en="For me, massage, yoga and reiki are three keys to one process: restoring the connection with yourself. I help you hear what the body has long been trying to say.">Для меня массаж, йога и рейки — это три ключа к одному процессу: восстановлению связи с собой. Я помогаю услышать то, что тело давно пытается сказать.</p>
+      <h2 class="about-st r delay1" data-en="My name is Alyona.<br>I help people feel their body again — through touch, movement and energy." data-es="Me llamo Alyona.<br>Ayudo a las personas a volver a sentir su cuerpo — a través del tacto, el movimiento y la energía.">Меня зовут Алёна.<br>Я помогаю людям снова ощутить своё тело через прикосновение, движение и энергию.</h2>
+      <p class="about-p r delay2" data-en="I came to this work through my own experience of tension and fatigue, when I realised the body holds far more than we are used to noticing." data-es="Llegué a este trabajo a través de mi propia experiencia de tensión y cansancio, cuando comprendí que el cuerpo guarda mucho más de lo que solemos notar.">К этой работе я пришла через собственный опыт напряжения и усталости, когда поняла, что тело хранит гораздо больше, чем мы привыкли замечать.</p>
+      <p class="about-p r delay2" data-en="For me, massage, yoga and reiki are three keys to one process: restoring the connection with yourself. I help you hear what the body has long been trying to say." data-es="Para mí, el masaje, el yoga y el reiki son tres llaves para un mismo proceso: recuperar la conexión contigo. Te ayudo a escuchar lo que el cuerpo lleva tiempo intentando decir.">Для меня массаж, йога и рейки — это три ключа к одному процессу: восстановлению связи с собой. Я помогаю услышать то, что тело давно пытается сказать.</p>
       <a class="btn-dark r delay3" href="#reviews">
-        <span data-en="Reviews">Отзывы</span>
+        <span data-en="Reviews" data-es="Reseñas">Отзывы</span>
         <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
     </div>
@@ -504,24 +510,24 @@
 
 <!-- ---------------- УСЛУГИ ---------------- -->
 <section class="services-sec" id="services">
-  <div class="services-bg"><img src="services.jpg" alt="Telo.Sabe — практики"></div>
-  <blockquote class="services-quote" data-en="Within you there is a stillness and a sanctuary to which you can retreat at any time and be yourself.<cite>Hermann Hesse, Siddhartha</cite>">У тебя, как и у меня, внутри имеется тихое убежище, куда ты можешь уйти в любой час и чувствовать себя дома.<cite>Герман Гессе, «Сиддхартха»</cite></blockquote>
+  <div class="services-bg"><img src="services.jpg?v=2" alt="Telo.Sabe — практики"></div>
+  <blockquote class="services-quote" data-en="Within you there is a stillness and a sanctuary to which you can retreat at any time and be yourself.<cite>Hermann Hesse, Siddhartha</cite>" data-es="Dentro de ti hay una calma y un refugio a los que puedes retirarte en cualquier momento y ser tú mismo.<cite>Hermann Hesse, Siddhartha</cite>">У тебя, как и у меня, внутри имеется тихое убежище, куда ты можешь уйти в любой час и чувствовать себя дома.<cite>Герман Гессе, «Сиддхартха»</cite></blockquote>
   <div class="services-card r">
-    <div class="services-kicker" data-en="Services">Услуги</div>
+    <div class="services-kicker" data-en="Services" data-es="Servicios">Услуги</div>
 
     <div class="acc-item open">
-      <div class="acc-head"><span class="acc-num">01.</span><span class="acc-title" data-en="Massage">Массаж</span><span class="acc-sign"></span></div>
-      <div class="acc-body"><p data-en="Working with the body through touch. We gently release tension, find knots and trigger points, and return a feeling of lightness through attention to the areas that have long been waiting for it.">Работа с телом через прикосновение. Мягко снимаем напряжение, находим зажимы и триггерные точки, возвращаем телу ощущение лёгкости через внимание к зонам, которые давно его ждали.</p></div>
+      <div class="acc-head"><span class="acc-num">01.</span><span class="acc-title" data-en="Massage" data-es="Masaje">Массаж</span><span class="acc-sign"></span></div>
+      <div class="acc-body"><p data-en="Working with the body through touch. We gently release tension, find knots and trigger points, and return a feeling of lightness through attention to the areas that have long been waiting for it." data-es="Trabajo con el cuerpo a través del tacto. Liberamos la tensión con suavidad, encontramos contracturas y puntos gatillo, y devolvemos la sensación de ligereza prestando atención a las zonas que llevaban tiempo esperándola.">Работа с телом через прикосновение. Мягко снимаем напряжение, находим зажимы и триггерные точки, возвращаем телу ощущение лёгкости через внимание к зонам, которые давно его ждали.</p></div>
     </div>
 
     <div class="acc-item">
-      <div class="acc-head"><span class="acc-num">02.</span><span class="acc-title" data-en="Reiki">Рейки</span><span class="acc-sign"></span></div>
-      <div class="acc-body"><p data-en="A practice of energetic balancing and deep relaxation. In a calm, trusting atmosphere, it's a way to slow down, spend time in silence and restore your resource.">Практика энергетической балансировки и глубокого расслабления. В спокойной и доверительной атмосфере это способ замедлиться, побыть в тишине и восстановить ресурс.</p></div>
+      <div class="acc-head"><span class="acc-num">02.</span><span class="acc-title" data-en="Reiki" data-es="Reiki">Рейки</span><span class="acc-sign"></span></div>
+      <div class="acc-body"><p data-en="A practice of energetic balancing and deep relaxation. In a calm, trusting atmosphere, it's a way to slow down, spend time in silence and restore your resource." data-es="Una práctica de equilibrio energético y relajación profunda. En un ambiente tranquilo y de confianza, es una forma de bajar el ritmo, estar en silencio y recuperar tus fuerzas.">Практика энергетической балансировки и глубокого расслабления. В спокойной и доверительной атмосфере это способ замедлиться, побыть в тишине и восстановить ресурс.</p></div>
     </div>
 
     <div class="acc-item">
-      <div class="acc-head"><span class="acc-num">03.</span><span class="acc-title" data-en="Yoga">Йога</span><span class="acc-sign"></span></div>
-      <div class="acc-body"><p data-en="A practice of movement, breath and attention. My sessions aren't about complex asanas, but about hearing the body through movement, letting energy flow through it again, and returning to your natural rhythm.">Практика движения, дыхания и внимания. Мои практики не про сложные асаны, а про то, чтобы услышать тело через движение, дать энергии снова двигаться по телу и вернуться к своему природному ритму.</p></div>
+      <div class="acc-head"><span class="acc-num">03.</span><span class="acc-title" data-en="Yoga" data-es="Yoga">Йога</span><span class="acc-sign"></span></div>
+      <div class="acc-body"><p data-en="A practice of movement, breath and attention. My sessions aren't about complex asanas, but about hearing the body through movement, letting energy flow through it again, and returning to your natural rhythm." data-es="Una práctica de movimiento, respiración y atención. Mis sesiones no van de asanas complejas, sino de escuchar el cuerpo a través del movimiento, dejar que la energía vuelva a fluir y regresar a tu ritmo natural.">Практика движения, дыхания и внимания. Мои практики не про сложные асаны, а про то, чтобы услышать тело через движение, дать энергии снова двигаться по телу и вернуться к своему природному ритму.</p></div>
     </div>
   </div>
 </section>
@@ -531,48 +537,48 @@
   <div class="session-wrap">
     <div class="session-head">
       <div>
-        <div class="session-eyebrow r" data-en="About the session">О сессии</div>
-        <h2 class="session-h2 r delay1" data-en="How a session unfolds">Как проходит сессия</h2>
+        <div class="session-eyebrow r" data-en="About the session" data-es="Sobre la sesión">О сессии</div>
+        <h2 class="session-h2 r delay1" data-en="How a session unfolds" data-es="Cómo transcurre una sesión">Как проходит сессия</h2>
       </div>
       <div>
-        <p class="session-p r delay1" data-en="Everything begins with a short conversation about what you feel in your body right now and what you'd like to receive from the session. Together we choose the gentlest place to start.">Всё начинается с короткого разговора о том, что ты чувствуешь в теле сейчас и чего хотелось бы получить от сессии. Мы вместе выбираем, с чего мягче начать.</p>
-        <p class="session-p r delay2" data-en="Sessions take place in a calm, warm space near La Sagrera metro (Barcelona). No previous experience with these practices is needed — all it takes is your body's response.">Сессия проходит в спокойном, тёплом пространстве рядом с метро La Sagrera (Barcelona). Приходить с опытом практик не обязательно — достаточно отклика тела.</p>
+        <p class="session-p r delay1" data-en="Everything begins with a short conversation about what you feel in your body right now and what you'd like to receive from the session. Together we choose the gentlest place to start." data-es="Todo empieza con una breve conversación sobre lo que sientes en tu cuerpo ahora y lo que te gustaría recibir de la sesión. Juntos elegimos por dónde empezar con suavidad.">Всё начинается с короткого разговора о том, что ты чувствуешь в теле сейчас и чего хотелось бы получить от сессии. Мы вместе выбираем, с чего мягче начать.</p>
+        <p class="session-p r delay2" data-en="Sessions take place in a calm, warm space near La Sagrera metro (Barcelona). No previous experience with these practices is needed — all it takes is your body's response." data-es="Las sesiones tienen lugar en un espacio tranquilo y cálido cerca del metro La Sagrera (Barcelona). No hace falta experiencia previa con estas prácticas: basta con la respuesta de tu cuerpo.">Сессия проходит в спокойном, тёплом пространстве рядом с метро La Sagrera (Barcelona). Приходить с опытом практик не обязательно — достаточно отклика тела.</p>
       </div>
     </div>
 
     <div class="session-gallery r delay1">
-      <img class="g1" src="session2.jpg" alt="Массажный кабинет Telo.Sabe">
-      <img class="g2" src="session1.jpg" alt="Зал практик Telo.Sabe">
+      <img class="g1" src="session2.jpg?v=2" alt="Массажный кабинет Telo.Sabe">
+      <img class="g2" src="session1.jpg?v=2" alt="Зал практик Telo.Sabe">
     </div>
 
     <div class="session-cards">
       <div class="scard r">
-        <div class="scard-head"><h3 data-en="Massage">Массаж</h3><span class="scard-dur" data-en="60 / 90 min">60 / 90 мин</span></div>
+        <div class="scard-head"><h3 data-en="Massage" data-es="Masaje">Массаж</h3><span class="scard-dur" data-en="60 / 90 min" data-es="60 / 90 min">60 / 90 мин</span></div>
         <div class="sdiv"></div>
-        <div class="subt" data-en="By agreement with the client, the session may include:">По согласованию с клиентом в рамках сессии используются:</div>
+        <div class="subt" data-en="By agreement with the client, the session may include:" data-es="De acuerdo con el cliente, la sesión puede incluir:">По согласованию с клиентом в рамках сессии используются:</div>
         <ul>
-          <li data-en="Bamboo sticks">Бамбуковые палки</li>
-          <li data-en="Tiger Warmer (Ito Thermie)">Tiger Warmer (Ito Thermie)</li>
-          <li data-en="Vacuum cups">Вакуумные банки</li>
+          <li data-en="Bamboo sticks" data-es="Cañas de bambú">Бамбуковые палки</li>
+          <li data-en="Tiger Warmer (Ito Thermie)" data-es="Tiger Warmer (Ito Thermie)">Tiger Warmer (Ito Thermie)</li>
+          <li data-en="Vacuum cups" data-es="Ventosas">Вакуумные банки</li>
         </ul>
       </div>
       <div class="scard r delay1">
-        <div class="scard-head"><h3 data-en="Reiki">Рейки</h3><span class="scard-dur" data-en="30 / 60 min">30 / 60 мин</span></div>
+        <div class="scard-head"><h3 data-en="Reiki" data-es="Reiki">Рейки</h3><span class="scard-dur" data-en="30 / 60 min" data-es="30 / 60 min">30 / 60 мин</span></div>
         <div class="sdiv"></div>
-        <div class="subt" data-en="The therapy is carried out through the touch of the palms:">Терапия осуществляется через прикосновения ладонями:</div>
+        <div class="subt" data-en="The therapy is carried out through the touch of the palms:" data-es="La terapia se realiza a través del contacto de las palmas:">Терапия осуществляется через прикосновения ладонями:</div>
         <ul>
-          <li data-en="Fully clothed">Полностью в одежде</li>
-          <li data-en="Lying on the massage table">Лёжа на массажном столе</li>
-          <li data-en="Under a blanket if needed">Под пледом при необходимости</li>
+          <li data-en="Fully clothed" data-es="Totalmente vestido">Полностью в одежде</li>
+          <li data-en="Lying on the massage table" data-es="Tumbado en la camilla">Лёжа на массажном столе</li>
+          <li data-en="Under a blanket if needed" data-es="Bajo una manta si hace falta">Под пледом при необходимости</li>
         </ul>
       </div>
       <div class="scard r delay2">
-        <div class="scard-head"><h3 data-en="Yoga">Йога</h3><span class="scard-dur" data-en="60 min">60 мин</span></div>
+        <div class="scard-head"><h3 data-en="Yoga" data-es="Yoga">Йога</h3><span class="scard-dur" data-en="60 min" data-es="60 min">60 мин</span></div>
         <div class="sdiv"></div>
-        <div class="subt" data-en="By agreement with the client, the practice may include:">По согласованию с клиентом в рамках практики:</div>
+        <div class="subt" data-en="By agreement with the client, the practice may include:" data-es="De acuerdo con el cliente, la práctica puede incluir:">По согласованию с клиентом в рамках практики:</div>
         <ul>
-          <li data-en="Extended block of breathing practices">Расширенный блок дыхательных практик</li>
-          <li data-en="Myofascial release with a roller and ball">МФР с роллом и мячиком</li>
+          <li data-en="Extended block of breathing practices" data-es="Bloque ampliado de prácticas de respiración">Расширенный блок дыхательных практик</li>
+          <li data-en="Myofascial release with a roller and ball" data-es="Liberación miofascial con rodillo y pelota">МФР с роллом и мячиком</li>
         </ul>
       </div>
     </div>
@@ -582,63 +588,63 @@
 <!-- ---------------- ОПЫТ / СЕРТИФИКАТЫ ---------------- -->
 <section class="exp-sec" id="experience">
   <div class="exp-wrap">
-    <div class="exp-eyebrow r" data-en="Experience">Опыт</div>
-    <h2 class="exp-h2 r delay1" data-en="Training and certified qualification">Обучение и подтверждённая квалификация</h2>
-    <p class="exp-intro r delay1" data-en="Behind the practices are years of study in schools in Barcelona, Moscow and international centres. Every direction is backed by certificates.">За практиками — годы обучения в школах Барселоны, Москвы и международных центрах. Каждое направление подтверждено сертификатами.</p>
+    <div class="exp-eyebrow r" data-en="Experience" data-es="Experiencia">Опыт</div>
+    <h2 class="exp-h2 r delay1" data-en="Training and certified qualification" data-es="Formación y cualificación certificada">Обучение и подтверждённая квалификация</h2>
+    <p class="exp-intro r delay1" data-en="Behind the practices are years of study in schools in Barcelona, Moscow and international centres. Every direction is backed by certificates." data-es="Detrás de las prácticas hay años de formación en escuelas de Barcelona, Moscú y centros internacionales. Cada disciplina está respaldada por certificados.">За практиками — годы обучения в школах Барселоны, Москвы и международных центрах. Каждое направление подтверждено сертификатами.</p>
 
     <div class="exp-creds">
       <div class="cred-group r">
-        <h4 data-en="Massage">Массаж</h4>
+        <h4 data-en="Massage" data-es="Masaje">Массаж</h4>
         <div class="cred-items">
-          <div class="cred-item"><div class="name" data-en="Classic massage">Классический массаж</div><div class="meta" data-en="Moscow School of Massage, Moscow, 2024">Московская школа массажа, Москва, 2024</div></div>
-          <div class="cred-item"><div class="name" data-en="Quiromassage 360">Хиромассаж 360</div><div class="meta" data-en="INSTENAT, Barcelona, 2025">INSTENAT, Барселона, 2025</div></div>
-          <div class="cred-item"><div class="name" data-en="Yumeiho massage">Юмейхо массаж</div><div class="meta" data-en="Yumeiho Center, Moscow, 2025">Юмейхо центр, Москва, 2025</div></div>
-          <div class="cred-item"><div class="name" data-en="Trigger points: shoulder girdle and upper limbs">Триггерные точки: плечевой пояс и верхние конечности</div><div class="meta" data-en="ISMET, Barcelona, 2025">ISMET, Барселона, 2025</div></div>
-          <div class="cred-item"><div class="name" data-en="Trigger points: lumbosacral region and lower limbs">Триггерные точки: пояснично-крестцовая зона и нижние конечности</div><div class="meta" data-en="ISMET, Barcelona, 2026">ISMET, Барселона, 2026</div></div>
-          <div class="cred-item"><div class="name" data-en="Anti-cellulite and lymphatic drainage massage">Антицеллюлитный и лимфодренажный массаж</div><div class="meta" data-en="Sculptor Massage Studio, Barcelona, 2025">Sculptor Massage Studio, Барселона, 2025</div></div>
-          <div class="cred-item"><div class="name" data-en="French sculptural face massage">Французский скульптурный массаж лица</div><div class="meta" data-en="ARAVIA Professional, Moscow, 2025">ARAVIA Professional, Москва, 2025</div></div>
-          <div class="cred-item"><div class="name" data-en="Jacquet face massage and darsonvalization">Массаж лица по Жаке и дарсонвализация</div><div class="meta" data-en="ARAVIA Professional, Moscow, 2025">ARAVIA Professional, Москва, 2025</div></div>
+          <div class="cred-item"><div class="name" data-en="Classic massage" data-es="Masaje clásico">Классический массаж</div><div class="meta" data-en="Moscow School of Massage, Moscow, 2024" data-es="Escuela de Masaje de Moscú, Moscú, 2024">Московская школа массажа, Москва, 2024</div></div>
+          <div class="cred-item"><div class="name" data-en="Quiromassage 360" data-es="Quiromasaje 360">Хиромассаж 360</div><div class="meta" data-en="INSTENAT, Barcelona, 2025" data-es="INSTENAT, Barcelona, 2025">INSTENAT, Барселона, 2025</div></div>
+          <div class="cred-item"><div class="name" data-en="Yumeiho massage" data-es="Masaje Yumeiho">Юмейхо массаж</div><div class="meta" data-en="Yumeiho Center, Moscow, 2025" data-es="Centro Yumeiho, Moscú, 2025">Юмейхо центр, Москва, 2025</div></div>
+          <div class="cred-item"><div class="name" data-en="Trigger points: shoulder girdle and upper limbs" data-es="Puntos gatillo: cintura escapular y miembros superiores">Триггерные точки: плечевой пояс и верхние конечности</div><div class="meta" data-en="ISMET, Barcelona, 2025" data-es="ISMET, Barcelona, 2025">ISMET, Барселона, 2025</div></div>
+          <div class="cred-item"><div class="name" data-en="Trigger points: lumbosacral region and lower limbs" data-es="Puntos gatillo: región lumbosacra y miembros inferiores">Триггерные точки: пояснично-крестцовая зона и нижние конечности</div><div class="meta" data-en="ISMET, Barcelona, 2026" data-es="ISMET, Barcelona, 2026">ISMET, Барселона, 2026</div></div>
+          <div class="cred-item"><div class="name" data-en="Anti-cellulite and lymphatic drainage massage" data-es="Masaje anticelulítico y drenaje linfático">Антицеллюлитный и лимфодренажный массаж</div><div class="meta" data-en="Sculptor Massage Studio, Barcelona, 2025" data-es="Sculptor Massage Studio, Barcelona, 2025">Sculptor Massage Studio, Барселона, 2025</div></div>
+          <div class="cred-item"><div class="name" data-en="French sculptural face massage" data-es="Masaje facial escultural francés">Французский скульптурный массаж лица</div><div class="meta" data-en="ARAVIA Professional, Moscow, 2025" data-es="ARAVIA Professional, Moscú, 2025">ARAVIA Professional, Москва, 2025</div></div>
+          <div class="cred-item"><div class="name" data-en="Jacquet face massage and darsonvalization" data-es="Masaje facial Jacquet y darsonvalización">Массаж лица по Жаке и дарсонвализация</div><div class="meta" data-en="ARAVIA Professional, Moscow, 2025" data-es="ARAVIA Professional, Moscú, 2025">ARAVIA Professional, Москва, 2025</div></div>
         </div>
       </div>
 
       <div class="cred-group r delay1">
-        <h4 data-en="Reiki">Рейки</h4>
+        <h4 data-en="Reiki" data-es="Reiki">Рейки</h4>
         <div class="cred-items">
-          <div class="cred-item"><div class="name">Reiki Level 1 · Shoden (Usui Reiki Ryoho)</div><div class="meta" data-en="KISETSU School, Barcelona, 2025">Школа KISETSU, Барселона, 2025</div></div>
-          <div class="cred-item"><div class="name">Reiki Level 2 · Okuden (Usui Reiki Ryoho)</div><div class="meta" data-en="KISETSU School, Barcelona, 2025">Школа KISETSU, Барселона, 2025</div></div>
+          <div class="cred-item"><div class="name">Reiki Level 1 · Shoden (Usui Reiki Ryoho)</div><div class="meta" data-en="KISETSU School, Barcelona, 2025" data-es="Escuela KISETSU, Barcelona, 2025">Школа KISETSU, Барселона, 2025</div></div>
+          <div class="cred-item"><div class="name">Reiki Level 2 · Okuden (Usui Reiki Ryoho)</div><div class="meta" data-en="KISETSU School, Barcelona, 2025" data-es="Escuela KISETSU, Barcelona, 2025">Школа KISETSU, Барселона, 2025</div></div>
         </div>
       </div>
 
       <div class="cred-group r delay2">
-        <h4 data-en="Yoga">Йога</h4>
+        <h4 data-en="Yoga" data-es="Yoga">Йога</h4>
         <div class="cred-items">
-          <div class="cred-item"><div class="name" data-en="Yoga teacher training, 250+ hours">Преподаватель йоги, 250+ часов</div><div class="meta" data-en="Kaula Yoga School, Moscow, 2022–2023">Школа Каула-Йоги, Москва, 2022–2023</div></div>
+          <div class="cred-item"><div class="name" data-en="Yoga teacher training, 250+ hours" data-es="Formación de profesora de yoga, 250+ horas">Преподаватель йоги, 250+ часов</div><div class="meta" data-en="Kaula Yoga School, Moscow, 2022–2023" data-es="Escuela Kaula Yoga, Moscú, 2022–2023">Школа Каула-Йоги, Москва, 2022–2023</div></div>
         </div>
       </div>
     </div>
 
-    <div class="cert-label r" data-en="Certificates · scroll →">Сертификаты · листай →</div>
+    <div class="cert-label r" data-en="Certificates · scroll →" data-es="Certificados · desliza →">Сертификаты · листай →</div>
     <div class="cert-track r delay1">
-      <div class="cert-card" onclick="openLB(0)"><img src="cert/c1.png" alt="Сертификат"></div>
-      <div class="cert-card" onclick="openLB(1)"><img src="cert/c2.png" alt="Сертификат"></div>
-      <div class="cert-card" onclick="openLB(2)"><img src="cert/c3.png" alt="Сертификат"></div>
-      <div class="cert-card" onclick="openLB(3)"><img src="cert/c4.png" alt="Сертификат"></div>
-      <div class="cert-card" onclick="openLB(4)"><img src="cert/c5.png" alt="Сертификат"></div>
-      <div class="cert-card" onclick="openLB(5)"><img src="cert/c6.png" alt="Сертификат"></div>
-      <div class="cert-card" onclick="openLB(6)"><img src="cert/c7.png" alt="Сертификат"></div>
-      <div class="cert-card" onclick="openLB(7)"><img src="cert/c8.png" alt="Сертификат"></div>
-      <div class="cert-card" onclick="openLB(8)"><img src="cert/c9.png" alt="Сертификат"></div>
-      <div class="cert-card" onclick="openLB(9)"><img src="cert/c10.png" alt="Сертификат"></div>
-      <div class="cert-card" onclick="openLB(10)"><img src="cert/c11.png" alt="Сертификат"></div>
+      <div class="cert-card" onclick="openLB(0)"><img loading="lazy" decoding="async" src="cert/c1.jpg" alt="Сертификат"></div>
+      <div class="cert-card" onclick="openLB(1)"><img loading="lazy" decoding="async" src="cert/c2.jpg" alt="Сертификат"></div>
+      <div class="cert-card" onclick="openLB(2)"><img loading="lazy" decoding="async" src="cert/c3.jpg" alt="Сертификат"></div>
+      <div class="cert-card" onclick="openLB(3)"><img loading="lazy" decoding="async" src="cert/c4.jpg" alt="Сертификат"></div>
+      <div class="cert-card" onclick="openLB(4)"><img loading="lazy" decoding="async" src="cert/c5.jpg" alt="Сертификат"></div>
+      <div class="cert-card" onclick="openLB(5)"><img loading="lazy" decoding="async" src="cert/c6.jpg" alt="Сертификат"></div>
+      <div class="cert-card" onclick="openLB(6)"><img loading="lazy" decoding="async" src="cert/c7.jpg" alt="Сертификат"></div>
+      <div class="cert-card" onclick="openLB(7)"><img loading="lazy" decoding="async" src="cert/c8.jpg" alt="Сертификат"></div>
+      <div class="cert-card" onclick="openLB(8)"><img loading="lazy" decoding="async" src="cert/c9.jpg" alt="Сертификат"></div>
+      <div class="cert-card" onclick="openLB(9)"><img loading="lazy" decoding="async" src="cert/c10.jpg" alt="Сертификат"></div>
+      <div class="cert-card" onclick="openLB(10)"><img loading="lazy" decoding="async" src="cert/c11.jpg" alt="Сертификат"></div>
     </div>
 
     <div class="exp-studios r">
       <div>
-        <h3 data-en="For studios &amp; spa">Для студий и спа</h3>
-        <p data-en="Open to collaboration with spa and massage spaces in Barcelona. I combine bodywork and energy work, a gentle approach to the client and attention to the details of premium-level service.">Открыта к сотрудничеству со спа- и массажными пространствами Барселоны. Соединяю телесную и энергетическую работу, бережный подход к клиенту и внимание к деталям сервиса премиум-уровня.</p>
+        <h3 data-en="For studios &amp; spa" data-es="Para estudios y spa">Для студий и спа</h3>
+        <p data-en="Open to collaboration with spa and massage spaces in Barcelona. I combine bodywork and energy work, a gentle approach to the client and attention to the details of premium-level service." data-es="Abierta a colaborar con espacios de spa y masaje en Barcelona. Combino el trabajo corporal y energético, un trato cuidadoso con el cliente y la atención al detalle propia de un servicio premium.">Открыта к сотрудничеству со спа- и массажными пространствами Барселоны. Соединяю телесную и энергетическую работу, бережный подход к клиенту и внимание к деталям сервиса премиум-уровня.</p>
       </div>
       <a class="btn-cream" href="https://wa.me/34603526806" target="_blank">
-        <span data-en="Get in touch">Связаться</span>
+        <span data-en="Get in touch" data-es="Contactar">Связаться</span>
         <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
     </div>
@@ -648,8 +654,8 @@
 <!-- ---------------- ОТЗЫВЫ ---------------- -->
 <section class="reviews-sec" id="reviews">
   <div class="reviews-wrap">
-    <div class="reviews-eyebrow r" data-en="Reviews">Отзывы</div>
-    <h2 class="reviews-h2 r delay1" data-en="What people feel after a session">Что чувствуют люди после сессий</h2>
+    <div class="reviews-eyebrow r" data-en="Reviews" data-es="Reseñas">Отзывы</div>
+    <h2 class="reviews-h2 r delay1" data-en="What people feel after a session" data-es="Lo que sienten las personas después de una sesión">Что чувствуют люди после сессий</h2>
 
     <div class="reviews-featured r delay1">
       <div class="rev-slide"><img id="rev-img" src="slides/s1.png" alt="Отзыв Telo.Sabe"></div>
@@ -670,15 +676,15 @@
 <section class="phil-sec" id="philosophy">
   <div class="phil-wrap">
     <div class="phil-img r">
-      <img src="philosophy.jpg" alt="Telo.Sabe" onerror="this.style.display='none'">
+      <img loading="lazy" decoding="async" src="philosophy.jpg?v=2" alt="Telo.Sabe" onerror="this.style.display='none'">
     </div>
     <div class="phil-text">
-      <div class="phil-eyebrow r" data-en="Philosophy">Философия</div>
-      <h2 class="phil-h2 r delay1" data-en="The answer is always inside the body.">Внутри тела всегда есть ответ.</h2>
-      <p class="phil-p r delay1" data-en="It speaks to us through inner sensations. When we think about something that troubles us, or stand before a choice and can't make a decision, the body responds. This dialogue is quiet, but honest.">Оно говорит с нами через внутренние ощущения. Когда мы думаем о чём-то, что нас беспокоит, или оказываемся перед выбором и не можем принять решение, тело откликается. Это взаимодействие тихое, но честное.</p>
-      <p class="phil-p r delay2" data-en="We're used to looking for answers in our thoughts. But often the body already knows everything — we just don't hear it, because somewhere we're overstrained, haven't rested in a long time, ignored its signals or lost touch with ourselves.">Мы привыкли искать ответы в мыслях. Но часто тело уже всё знает, а мы его не слышим, потому что где-то перенапряжены, давно не отдыхали, игнорировали его сигналы или потеряли контакт с собой.</p>
-      <p class="phil-p r delay2" data-en="Telo.Sabe is about returning to that knowing. Not through control, but through attention and relaxation.">Telo.Sabe — про то, чтобы вернуть это знание. Не через контроль, а через внимание и расслабление.</p>
-      <div class="phil-quote r delay2" data-en="The body knows. And I help you hear it — through movement, touch and energy.">Тело знает. А я помогаю услышать его через движение, прикосновение и энергию.</div>
+      <div class="phil-eyebrow r" data-en="Philosophy" data-es="Filosofía">Философия</div>
+      <h2 class="phil-h2 r delay1" data-en="The answer is always inside the body." data-es="La respuesta siempre está dentro del cuerpo.">Внутри тела всегда есть ответ.</h2>
+      <p class="phil-p r delay1" data-en="It speaks to us through inner sensations. When we think about something that troubles us, or stand before a choice and can't make a decision, the body responds. This dialogue is quiet, but honest." data-es="Nos habla a través de las sensaciones internas. Cuando pensamos en algo que nos inquieta, o estamos ante una decisión y no logramos tomarla, el cuerpo responde. Ese diálogo es silencioso, pero honesto.">Оно говорит с нами через внутренние ощущения. Когда мы думаем о чём-то, что нас беспокоит, или оказываемся перед выбором и не можем принять решение, тело откликается. Это взаимодействие тихое, но честное.</p>
+      <p class="phil-p r delay2" data-en="We're used to looking for answers in our thoughts. But often the body already knows everything — we just don't hear it, because somewhere we're overstrained, haven't rested in a long time, ignored its signals or lost touch with ourselves." data-es="Estamos acostumbrados a buscar respuestas en la mente. Pero a menudo el cuerpo ya lo sabe todo; simplemente no lo escuchamos, porque estamos sobrecargados, hace tiempo que no descansamos, ignoramos sus señales o perdimos el contacto con nosotros mismos.">Мы привыкли искать ответы в мыслях. Но часто тело уже всё знает, а мы его не слышим, потому что где-то перенапряжены, давно не отдыхали, игнорировали его сигналы или потеряли контакт с собой.</p>
+      <p class="phil-p r delay2" data-en="Telo.Sabe is about returning to that knowing. Not through control, but through attention and relaxation." data-es="Telo.Sabe trata de volver a ese saber. No a través del control, sino de la atención y la relajación.">Telo.Sabe — про то, чтобы вернуть это знание. Не через контроль, а через внимание и расслабление.</p>
+      <div class="phil-quote r delay2" data-en="The body knows. And I help you hear it — through movement, touch and energy." data-es="El cuerpo sabe. Y yo te ayudo a escucharlo — a través del movimiento, el tacto y la energía.">Тело знает. А я помогаю услышать его через движение, прикосновение и энергию.</div>
     </div>
   </div>
 </section>
@@ -686,36 +692,36 @@
 <!-- ---------------- FAQ ---------------- -->
 <section class="faq-sec" id="faq">
   <div class="faq-wrap">
-    <div class="faq-eyebrow r" data-en="Questions">Вопросы</div>
-    <h2 class="faq-h2 r delay1" data-en="Frequently asked questions">Частые вопросы</h2>
+    <div class="faq-eyebrow r" data-en="Questions" data-es="Preguntas">Вопросы</div>
+    <h2 class="faq-h2 r delay1" data-en="Frequently asked questions" data-es="Preguntas frecuentes">Частые вопросы</h2>
 
     <div class="faq-item">
-      <div class="faq-q"><span data-en="I've never had a massage, yoga or reiki session. Is it okay to come without experience?">Никогда не была на массаже, йоге или рейки. Это нормально — прийти без опыта?</span><span class="sign">+</span></div>
-      <div class="faq-a"><p data-en="Yes, and it's a very common situation. No experience is needed — all it takes is the wish to give your body some attention. We'll start with a short conversation and decide together which practice suits you, if you're not yet sure where to begin.">Да, и это очень частая ситуация. Опыт не нужен — нужно только желание дать телу внимание. Мы начнём с короткого разговора и вместе решим, какая практика подойдёт, если пока нет понимания, с чего начать.</p></div>
+      <div class="faq-q"><span data-en="I've never had a massage, yoga or reiki session. Is it okay to come without experience?" data-es="Nunca he recibido un masaje, yoga o reiki. ¿Está bien venir sin experiencia?">Никогда не была на массаже, йоге или рейки. Это нормально — прийти без опыта?</span><span class="sign">+</span></div>
+      <div class="faq-a"><p data-en="Yes, and it's a very common situation. No experience is needed — all it takes is the wish to give your body some attention. We'll start with a short conversation and decide together which practice suits you, if you're not yet sure where to begin." data-es="Sí, y es una situación muy habitual. No hace falta experiencia: basta con las ganas de dar atención a tu cuerpo. Empezaremos con una breve conversación y decidiremos juntos qué práctica te conviene, si aún no sabes por dónde empezar.">Да, и это очень частая ситуация. Опыт не нужен — нужно только желание дать телу внимание. Мы начнём с короткого разговора и вместе решим, какая практика подойдёт, если пока нет понимания, с чего начать.</p></div>
     </div>
     <div class="faq-item">
-      <div class="faq-q"><span data-en="How do I know what I need right now — massage, yoga or reiki?">Как понять, что мне сейчас нужно — массаж, йога или рейки?</span><span class="sign">+</span></div>
-      <div class="faq-a"><p data-en="You can trust your body: massage — when you want to relax and release tension through the hands; yoga — when you're drawn to gentle movement and breath; reiki — when you feel depleted and long for stillness. If you're unsure, write to me and I'll help you choose for your state.">Можно довериться телу: массаж — когда хочется расслабления и снять напряжение руками; йога — когда тянет к мягкому движению и дыханию; рейки — когда чувствуешь опустошённость и хочется тишины. Если сомневаешься — напиши, я помогу выбрать под твоё состояние.</p></div>
+      <div class="faq-q"><span data-en="How do I know what I need right now — massage, yoga or reiki?" data-es="¿Cómo sé qué necesito ahora mismo: masaje, yoga o reiki?">Как понять, что мне сейчас нужно — массаж, йога или рейки?</span><span class="sign">+</span></div>
+      <div class="faq-a"><p data-en="You can trust your body: massage — when you want to relax and release tension through the hands; yoga — when you're drawn to gentle movement and breath; reiki — when you feel depleted and long for stillness. If you're unsure, write to me and I'll help you choose for your state." data-es="Puedes confiar en tu cuerpo: masaje, cuando quieres relajarte y soltar tensión con las manos; yoga, cuando te atrae el movimiento suave y la respiración; reiki, cuando te sientes agotado y anhelas silencio. Si dudas, escríbeme y te ayudo a elegir según tu estado.">Можно довериться телу: массаж — когда хочется расслабления и снять напряжение руками; йога — когда тянет к мягкому движению и дыханию; рейки — когда чувствуешь опустошённость и хочется тишины. Если сомневаешься — напиши, я помогу выбрать под твоё состояние.</p></div>
     </div>
     <div class="faq-item">
-      <div class="faq-q"><span data-en="What should I wear, and do I need to undress for the massage?">Что надеть и нужно ли раздеваться на массаже?</span><span class="sign">+</span></div>
-      <div class="faq-a"><p data-en="For yoga and reiki — comfortable clothing that's easy to move and lie down in (reiki is done fully clothed). For massage you undress to a level that feels comfortable for you; the body stays covered, and only the area being worked on is exposed. Your boundaries come first.">На йогу и рейки — удобная одежда, в которой легко двигаться и лежать (рейки проходит полностью одетым). На массаже ты раздеваешься до комфортного для себя уровня; тело укрыто, открыт только тот участок, с которым идёт работа. Твои границы — на первом месте.</p></div>
+      <div class="faq-q"><span data-en="What should I wear, and do I need to undress for the massage?" data-es="¿Qué me pongo y hace falta desvestirse para el masaje?">Что надеть и нужно ли раздеваться на массаже?</span><span class="sign">+</span></div>
+      <div class="faq-a"><p data-en="For yoga and reiki — comfortable clothing that's easy to move and lie down in (reiki is done fully clothed). For massage you undress to a level that feels comfortable for you; the body stays covered, and only the area being worked on is exposed. Your boundaries come first." data-es="Para yoga y reiki, ropa cómoda con la que sea fácil moverse y tumbarse (el reiki se hace totalmente vestido). Para el masaje te desvistes hasta el nivel que te resulte cómodo; el cuerpo permanece cubierto y solo se descubre la zona en la que se trabaja. Tus límites son lo primero.">На йогу и рейки — удобная одежда, в которой легко двигаться и лежать (рейки проходит полностью одетым). На массаже ты раздеваешься до комфортного для себя уровня; тело укрыто, открыт только тот участок, с которым идёт работа. Твои границы — на первом месте.</p></div>
     </div>
     <div class="faq-item">
-      <div class="faq-q"><span data-en="How long does a session last, and how often should I come?">Сколько длится сессия и как часто стоит приходить?</span><span class="sign">+</span></div>
-      <div class="faq-a"><p data-en="A session lasts from 30 to 90 minutes, depending on the practice. Regularity matters more than intensity: many find a rhythm of once every 1–2 weeks comfortable, but it all depends on your state and needs. No pressure — we'll find what works for you.">Сессия длится от 30 до 90 минут в зависимости от практики. Регулярность важнее интенсивности: для многих комфортен ритм раз в 1–2 недели, но всё зависит от твоего состояния и запроса. Никакого давления — подберём то, что подходит именно тебе.</p></div>
+      <div class="faq-q"><span data-en="How long does a session last, and how often should I come?" data-es="¿Cuánto dura una sesión y con qué frecuencia conviene venir?">Сколько длится сессия и как часто стоит приходить?</span><span class="sign">+</span></div>
+      <div class="faq-a"><p data-en="A session lasts from 30 to 90 minutes, depending on the practice. Regularity matters more than intensity: many find a rhythm of once every 1–2 weeks comfortable, but it all depends on your state and needs. No pressure — we'll find what works for you." data-es="Una sesión dura de 30 a 90 minutos, según la práctica. La regularidad importa más que la intensidad: a muchas personas les resulta cómodo un ritmo de una vez cada 1–2 semanas, pero todo depende de tu estado y tus necesidades. Sin presión: encontraremos lo que te funcione.">Сессия длится от 30 до 90 минут в зависимости от практики. Регулярность важнее интенсивности: для многих комфортен ритм раз в 1–2 недели, но всё зависит от твоего состояния и запроса. Никакого давления — подберём то, что подходит именно тебе.</p></div>
     </div>
     <div class="faq-item">
-      <div class="faq-q"><span data-en="What will I feel during and after?">Что я почувствую во время и после?</span><span class="sign">+</span></div>
-      <div class="faq-a"><p data-en="It varies: warmth, a light pulsing, deep relaxation, sometimes drowsiness or an emotional release. Many leave more rested, lighter and calmer. Over the next day or two the body may keep 'letting go' of tension — this is normal.">По-разному: тепло, лёгкую пульсацию, глубокое расслабление, иногда дремоту или эмоциональное освобождение. Многие уходят более отдохнувшими, лёгкими и спокойными. В ближайшие день-два тело может продолжать «доотпускать» напряжение — это нормально.</p></div>
+      <div class="faq-q"><span data-en="What will I feel during and after?" data-es="¿Qué sentiré durante y después?">Что я почувствую во время и после?</span><span class="sign">+</span></div>
+      <div class="faq-a"><p data-en="It varies: warmth, a light pulsing, deep relaxation, sometimes drowsiness or an emotional release. Many leave more rested, lighter and calmer. Over the next day or two the body may keep 'letting go' of tension — this is normal." data-es="Varía: calor, un ligero pulso, relajación profunda, a veces somnolencia o una liberación emocional. Muchas personas salen más descansadas, ligeras y en calma. Durante el día o los dos días siguientes el cuerpo puede seguir soltando tensión; es normal.">По-разному: тепло, лёгкую пульсацию, глубокое расслабление, иногда дремоту или эмоциональное освобождение. Многие уходят более отдохнувшими, лёгкими и спокойными. В ближайшие день-два тело может продолжать «доотпускать» напряжение — это нормально.</p></div>
     </div>
     <div class="faq-item">
-      <div class="faq-q"><span data-en="Is reiki something religious or esoteric?">Рейки — это что-то религиозное или эзотерическое?</span><span class="sign">+</span></div>
-      <div class="faq-a"><p data-en="No. Reiki isn't connected to religion and doesn't require you to believe in anything. It's a gentle practice of slowing down and restoring your resource. I explain everything calmly and clearly, without unnecessary esoterics.">Нет. Рейки не связано с религией и не требует ни во что верить. Это мягкая практика замедления и восстановления ресурса. Я объясняю всё спокойно и понятно, без лишней эзотерики.</p></div>
+      <div class="faq-q"><span data-en="Is reiki something religious or esoteric?" data-es="¿El reiki es algo religioso o esotérico?">Рейки — это что-то религиозное или эзотерическое?</span><span class="sign">+</span></div>
+      <div class="faq-a"><p data-en="No. Reiki isn't connected to religion and doesn't require you to believe in anything. It's a gentle practice of slowing down and restoring your resource. I explain everything calmly and clearly, without unnecessary esoterics." data-es="No. El reiki no está ligado a ninguna religión ni exige creer en nada. Es una práctica suave de bajar el ritmo y recuperar tus fuerzas. Lo explico todo con calma y claridad, sin esoterismo innecesario.">Нет. Рейки не связано с религией и не требует ни во что верить. Это мягкая практика замедления и восстановления ресурса. Я объясняю всё спокойно и понятно, без лишней эзотерики.</p></div>
     </div>
     <div class="faq-item">
-      <div class="faq-q"><span data-en="Is this treatment? Does it replace a doctor?">Это лечение? Заменяет ли это врача?</span><span class="sign">+</span></div>
-      <div class="faq-a"><p data-en="No. My practices are about care, attention and restoring the connection with the body — not about diagnoses or treatment. They complement medical care beautifully, but don't replace it. If you have any conditions or you're pregnant, let me know in advance so I can gently adapt the session.">Нет. Мои практики — про заботу, внимание и восстановление контакта с телом, а не про диагнозы и лечение. Они прекрасно дополняют медицинскую помощь, но не заменяют её. Если есть заболевания или ты беременна — предупреди заранее, чтобы я мягко адаптировала сессию.</p></div>
+      <div class="faq-q"><span data-en="Is this treatment? Does it replace a doctor?" data-es="¿Es un tratamiento médico? ¿Sustituye al médico?">Это лечение? Заменяет ли это врача?</span><span class="sign">+</span></div>
+      <div class="faq-a"><p data-en="No. My practices are about care, attention and restoring the connection with the body — not about diagnoses or treatment. They complement medical care beautifully, but don't replace it. If you have any conditions or you're pregnant, let me know in advance so I can gently adapt the session." data-es="No. Mis prácticas tratan del cuidado, la atención y la reconexión con el cuerpo, no de diagnósticos ni tratamientos. Complementan muy bien la atención médica, pero no la sustituyen. Si tienes alguna condición o estás embarazada, avísame con antelación para adaptar la sesión con suavidad.">Нет. Мои практики — про заботу, внимание и восстановление контакта с телом, а не про диагнозы и лечение. Они прекрасно дополняют медицинскую помощь, но не заменяют её. Если есть заболевания или ты беременна — предупреди заранее, чтобы я мягко адаптировала сессию.</p></div>
     </div>
   </div>
 </section>
@@ -725,22 +731,22 @@
   <div class="contact-wrap">
     <div class="contact-top">
       <div class="contact-left">
-        <div class="contact-eyebrow r" data-en="Booking">Запись</div>
-        <h2 class="contact-h2 r delay1" data-en="If you feel your body needs attention right now — message me.">Если чувствуешь, что телу сейчас нужно внимание — напиши мне.</h2>
-        <p class="contact-p r delay1" data-en="We'll find what resonates with your state. I'm here if you'd like to return to your body gently and without rush.">Мы подберём то, что откликается твоему состоянию. Я рядом, если хочется вернуться к телу бережно и без спешки.</p>
+        <div class="contact-eyebrow r" data-en="Booking" data-es="Reserva">Запись</div>
+        <h2 class="contact-h2 r delay1" data-en="If you feel your body needs attention right now — message me." data-es="Si sientes que tu cuerpo necesita atención ahora — escríbeme.">Если чувствуешь, что телу сейчас нужно внимание — напиши мне.</h2>
+        <p class="contact-p r delay1" data-en="We'll find what resonates with your state. I'm here if you'd like to return to your body gently and without rush." data-es="Encontraremos lo que resuene con tu estado. Estoy aquí si quieres volver a tu cuerpo con suavidad y sin prisa.">Мы подберём то, что откликается твоему состоянию. Я рядом, если хочется вернуться к телу бережно и без спешки.</p>
         <div class="contact-actions r delay2">
           <a class="btn-cream" href="https://wa.me/34603526806" target="_blank">
-            <span data-en="Message on WhatsApp">Написать в WhatsApp</span>
+            <span data-en="Message on WhatsApp" data-es="Escríbeme por WhatsApp">Написать в WhatsApp</span>
             <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
         </div>
         <div class="contact-links r delay2">
           <a href="https://wa.me/34603526806" target="_blank"><span><span class="lbl">WhatsApp</span>+34 603 526 806</span></a>
           <a href="https://instagram.com/telo.sabe" target="_blank"><span><span class="lbl">Instagram</span>@telo.sabe</span></a>
-          <span style="color:#fff"><span class="lbl" data-en="Location">Локация</span>Barcelona</span>
+          <span style="color:#fff"><span class="lbl" data-en="Location" data-es="Ubicación">Локация</span>Barcelona</span>
         </div>
       </div>
-      <div class="contact-photo r delay1"><img src="contact.jpg" alt="Telo.Sabe" onerror="this.style.display='none'"></div>
+      <div class="contact-photo r delay1"><img loading="lazy" decoding="async" src="contact.jpg?v=2" alt="Telo.Sabe" onerror="this.style.display='none'"></div>
     </div>
 
     <div class="footer">
@@ -762,7 +768,7 @@
 
 <script>
   // лайтбокс сертификатов
-  const certImgs = ['cert/c1.png','cert/c2.png','cert/c3.png','cert/c4.png','cert/c5.png','cert/c6.png','cert/c7.png','cert/c8.png','cert/c9.png','cert/c10.png','cert/c11.png'];
+  const certImgs = ['cert/c1.jpg','cert/c2.jpg','cert/c3.jpg','cert/c4.jpg','cert/c5.jpg','cert/c6.jpg','cert/c7.jpg','cert/c8.jpg','cert/c9.jpg','cert/c10.jpg','cert/c11.jpg'];
   const reviewImgs = ['feedback/1.jpeg','feedback/2.jpeg','feedback/3.jpeg','feedback/4.jpeg','feedback/5.jpeg','feedback/6.jpeg','feedback/7.jpeg','feedback/8.jpeg','feedback/9.jpeg','feedback/10.jpeg','feedback/11.jpeg','feedback/12.jpeg','feedback/13.jpeg','feedback/14.jpeg','feedback/15.jpeg'];
   let lbList = certImgs, lbIndex = 0;
   const lb = document.getElementById('lightbox');
@@ -779,21 +785,21 @@
 
   // карусель отзывов (текст + меняющееся фото)
   const revData = [
-    {img:'slides/s1.png',  t:'Присылаю лучи благодарности за нежные и одновременно сильные руки мастера. Тело чувствует себя обновлённым, и утром скованность значительно меньше.', te:"Sending rays of gratitude for a therapist's hands that are gentle and strong at once. My body feels renewed, and the morning stiffness is so much less."},
-    {img:'slides/s2.png',  t:'Я как новая машина. Готова пахать всю неделю!', te:'I feel like a brand-new car. Ready to power through the whole week!'},
-    {img:'slides/s3.png',  t:'Официально подтверждаю: можешь менять в шапке профиля на «целительница». Сертификат могу выдать.', te:"Officially: you can change your bio to ‘healer.’ I can even issue you a certificate."},
-    {img:'slides/s4.png',  t:'Плечо прям в кайфе, господи, счастье какое.', te:'My shoulder is in pure bliss — goodness, what happiness.'},
-    {img:'slides/s5.png',  t:'Мышцы болят на плечах и в шее, как будто их катком проехали, но это такая приятная боль. Сижу наслаждаюсь осанкой.', te:"My shoulders and neck ache as if run over by a roller, but it's such a pleasant ache. I'm sitting here enjoying my posture."},
-    {img:'slides/s6.png',  t:'Моя лопатка и поясница приклоняются пред тобой. Мне комфортно дышать сидеть — я тебя обожать и любить и благодарить!', te:'My shoulder blade and lower back bow down to you. It’s comfortable to breathe and sit now — I adore, love and thank you!'},
-    {img:'slides/s7.png',  t:'Как приятно болит мое тело, ощущаю каждую мышцы. Надо продолжать.', te:'How pleasantly my body aches, I can feel every muscle. I have to keep going.'},
-    {img:'slides/s8.png',  t:'Алёна привела меня в мир йоги. Показала всю красоту практик и научила наслаждаться процессом и радостью от нахождения с собой в контакте.', te:'Alyona brought me into the world of yoga. She showed me all its beauty and taught me to enjoy the process and being in contact with myself.'},
-    {img:'slides/s9.png',  t:'Золотые ручки! Спала как боженька, ручка вообще не болит.', te:'Golden hands! I slept like a baby, my arm doesn’t hurt at all.'},
-    {img:'slides/s10.png', t:'Алёна очень тонко чувствует тело, бережно, но при этом глубоко прорабатывает зажимы и триггерные точки. После сеанса остаётся ощущение лёгкости, комфорта и огромной благодарности.', te:'Alyona senses the body so subtly — gently, yet deeply working through the knots and trigger points. Afterwards there’s lightness, comfort and enormous gratitude.'},
-    {img:'slides/s11.png', t:'Спасибо большое за массаж — это был мощный и глубокий сеанс. После появилось ощущение, будто сняли накопившееся напряжение. С радостью приду ещё и точно буду рекомендовать.', te:'Thank you for the massage — it was a powerful, deep session. Afterwards it felt like all the accumulated tension had lifted. I’ll gladly come again and recommend you.'},
-    {img:'slides/s12.png', t:'Пришёл на массаж с зажатыми мышцами и болью в спине. Уже после сеанса почувствовал заметное облегчение, а через несколько дней боль полностью ушла.', te:'I came with tight muscles and back pain. Right after the session I felt noticeable relief, and a few days later the pain was completely gone.'},
-    {img:'slides/s13.png', t:'Массажем назвать рука не поднимается — это целый исцеляющий ритуал. Абсолютно счастлива, что к тебе сходила, тело и душа оживают!', te:'I can’t even call it just a massage — it’s a whole healing ritual. I’m so happy I came; body and soul come alive!'},
-    {img:'slides/s14.png', t:'Каждый сеанс просто невероятный. С первых минут всё расслабляется и уходит напряжение. После каждого — ощущение лёгкости, как будто заново родилась.', te:'Every session is simply incredible. From the first minutes everything relaxes. After each one — a feeling of lightness, as if I were born anew.'},
-    {img:'slides/s15.png', t:'I had an amazing massage experience with Alena. The pressure was perfect, and afterward my body felt much lighter and tension-free.', te:'I had an amazing massage experience with Alena. The pressure was perfect, and afterward my body felt much lighter and tension-free.'}
+    {img:'slides/s1.png',  t:'Присылаю лучи благодарности за нежные и одновременно сильные руки мастера. Тело чувствует себя обновлённым, и утром скованность значительно меньше.', te:"Sending rays of gratitude for a therapist's hands that are gentle and strong at once. My body feels renewed, and the morning stiffness is so much less.", ts:'Envío rayos de gratitud por las manos del terapeuta, suaves y fuertes a la vez. Mi cuerpo se siente renovado y por la mañana la rigidez es mucho menor.'},
+    {img:'slides/s2.png',  t:'Я как новая машина. Готова пахать всю неделю!', te:'I feel like a brand-new car. Ready to power through the whole week!', ts:'Me siento como un coche nuevo. ¡Lista para darlo todo la semana entera!'},
+    {img:'slides/s3.png',  t:'Официально подтверждаю: можешь менять в шапке профиля на «целительница». Сертификат могу выдать.', te:"Officially: you can change your bio to ‘healer.’ I can even issue you a certificate.", ts:'Lo confirmo oficialmente: puedes cambiar tu bio a «sanadora». Hasta te doy un certificado.'},
+    {img:'slides/s4.png',  t:'Плечо прям в кайфе, господи, счастье какое.', te:'My shoulder is in pure bliss — goodness, what happiness.', ts:'Mi hombro está en pura gloria, madre mía, qué felicidad.'},
+    {img:'slides/s5.png',  t:'Мышцы болят на плечах и в шее, как будто их катком проехали, но это такая приятная боль. Сижу наслаждаюсь осанкой.', te:"My shoulders and neck ache as if run over by a roller, but it's such a pleasant ache. I'm sitting here enjoying my posture.", ts:'Me duelen los hombros y el cuello como si me hubiera pasado un rodillo por encima, pero es un dolor de lo más agradable. Aquí sentada, disfrutando de mi postura.'},
+    {img:'slides/s6.png',  t:'Моя лопатка и поясница приклоняются пред тобой. Мне комфортно дышать сидеть — я тебя обожать и любить и благодарить!', te:'My shoulder blade and lower back bow down to you. It’s comfortable to breathe and sit now — I adore, love and thank you!', ts:'Mi omóplato y mi zona lumbar se inclinan ante ti. Ahora respiro y me siento con comodidad — ¡te adoro, te quiero y te doy las gracias!'},
+    {img:'slides/s7.png',  t:'Как приятно болит мое тело, ощущаю каждую мышцы. Надо продолжать.', te:'How pleasantly my body aches, I can feel every muscle. I have to keep going.', ts:'Qué placer este dolorcito en el cuerpo, siento cada músculo. Tengo que seguir.'},
+    {img:'slides/s8.png',  t:'Алёна привела меня в мир йоги. Показала всю красоту практик и научила наслаждаться процессом и радостью от нахождения с собой в контакте.', te:'Alyona brought me into the world of yoga. She showed me all its beauty and taught me to enjoy the process and being in contact with myself.', ts:'Alyona me introdujo en el mundo del yoga. Me mostró toda su belleza y me enseñó a disfrutar del proceso y del gozo de estar en contacto conmigo misma.'},
+    {img:'slides/s9.png',  t:'Золотые ручки! Спала как боженька, ручка вообще не болит.', te:'Golden hands! I slept like a baby, my arm doesn’t hurt at all.', ts:'¡Manos de oro! Dormí como un bebé, el brazo no me duele nada.'},
+    {img:'slides/s10.png', t:'Алёна очень тонко чувствует тело, бережно, но при этом глубоко прорабатывает зажимы и триггерные точки. После сеанса остаётся ощущение лёгкости, комфорта и огромной благодарности.', te:'Alyona senses the body so subtly — gently, yet deeply working through the knots and trigger points. Afterwards there’s lightness, comfort and enormous gratitude.', ts:'Alyona percibe el cuerpo con enorme sutileza — con delicadeza, pero trabajando en profundidad las contracturas y los puntos gatillo. Después queda una sensación de ligereza, comodidad y una gratitud inmensa.'},
+    {img:'slides/s11.png', t:'Спасибо большое за массаж — это был мощный и глубокий сеанс. После появилось ощущение, будто сняли накопившееся напряжение. С радостью приду ещё и точно буду рекомендовать.', te:'Thank you for the massage — it was a powerful, deep session. Afterwards it felt like all the accumulated tension had lifted. I’ll gladly come again and recommend you.', ts:'Muchas gracias por el masaje — fue una sesión potente y profunda. Después sentí como si se hubiera soltado toda la tensión acumulada. Volveré encantada y te recomendaré sin duda.'},
+    {img:'slides/s12.png', t:'Пришёл на массаж с зажатыми мышцами и болью в спине. Уже после сеанса почувствовал заметное облегчение, а через несколько дней боль полностью ушла.', te:'I came with tight muscles and back pain. Right after the session I felt noticeable relief, and a few days later the pain was completely gone.', ts:'Llegué al masaje con los músculos agarrotados y dolor de espalda. Justo después de la sesión sentí un alivio notable, y unos días más tarde el dolor había desaparecido por completo.'},
+    {img:'slides/s13.png', t:'Массажем назвать рука не поднимается — это целый исцеляющий ритуал. Абсолютно счастлива, что к тебе сходила, тело и душа оживают!', te:'I can’t even call it just a massage — it’s a whole healing ritual. I’m so happy I came; body and soul come alive!', ts:'No me atrevo a llamarlo solo masaje — es todo un ritual sanador. Estoy absolutamente feliz de haber ido; ¡el cuerpo y el alma reviven!'},
+    {img:'slides/s14.png', t:'Каждый сеанс просто невероятный. С первых минут всё расслабляется и уходит напряжение. После каждого — ощущение лёгкости, как будто заново родилась.', te:'Every session is simply incredible. From the first minutes everything relaxes. After each one — a feeling of lightness, as if I were born anew.', ts:'Cada sesión es simplemente increíble. Desde los primeros minutos todo se relaja y la tensión se va. Después de cada una, una sensación de ligereza, como si hubiera renacido.'},
+    {img:'slides/s15.png', t:'I had an amazing massage experience with Alena. The pressure was perfect, and afterward my body felt much lighter and tension-free.', te:'I had an amazing massage experience with Alena. The pressure was perfect, and afterward my body felt much lighter and tension-free.', ts:'Tuve una experiencia de masaje maravillosa con Alena. La presión fue perfecta y después mi cuerpo se sintió mucho más ligero y sin tensión.'}
   ];
   let revI = 0;
   const revText=document.getElementById('rev-text'),
@@ -802,7 +808,7 @@
     const d=revData[revI];
     revText.style.opacity=0; revImg.style.opacity=0;
     setTimeout(()=>{
-      revText.textContent='«'+(window.currentLang==='en'?d.te:d.t)+'»'; revImg.src=d.img;
+      revText.textContent='«'+(window.currentLang==='en'?d.te:(window.currentLang==='es'?d.ts:d.t))+'»'; revImg.src=d.img;
       revCount.textContent=(revI+1)+' / '+revData.length;
       revText.style.opacity=1; revImg.style.opacity=1;
     },200);
@@ -835,20 +841,22 @@
     document.documentElement.lang = lang;
     document.querySelectorAll('[data-en]').forEach(el=>{
       if(el.dataset.ru===undefined) el.dataset.ru = el.innerHTML;
-      el.innerHTML = (lang==='en') ? el.dataset.en : el.dataset.ru;
+      el.innerHTML = (lang==='en') ? el.dataset.en
+                   : (lang==='es') ? (el.dataset.es || el.dataset.ru)
+                   : el.dataset.ru;
     });
     if(typeof renderRev==='function') renderRev();
   }
   function setLang(btn, lang){
     applyLang(lang);
-    try{ history.replaceState(null,'', lang==='en' ? '?lang=en' : '?lang=ru'); }catch(e){}
+    try{ history.replaceState(null,'', '?lang='+lang); }catch(e){}
   }
-  // язык из ссылки: ?lang=ru / ?lang=en (по умолчанию — русский)
+  // язык из ссылки: ?lang=ru / ?lang=es / ?lang=en (по умолчанию — русский)
   (function(){
     var p = new URLSearchParams(location.search).get('lang');
     var h = location.hash.replace('#','');
     var l = (p || h);
-    if(l==='en' || l==='ru') applyLang(l);
+    if(l==='en' || l==='es' || l==='ru') applyLang(l);
   })();
 
   // появление блоков при скролле
