@@ -257,7 +257,7 @@ button{font:inherit;color:inherit}
  .about-card{padding:36px 28px}
  .card{padding:28px 24px}
 }
-@media (max-width:480px){.svc-card .cut{width:300px}.svc-card .pill{width:276px!important;font-size:13px}.hero-card .cut{width:300px}.hero-card .pill{width:276px!important;font-size:13px}.inv[style*="right:320px"]{right:300px!important}}
+
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 @media (max-width:900px){.hdr .cols{grid-template-columns:minmax(0,1fr) auto}.hleft{justify-content:flex-start;gap:16px}.burger{order:2;margin-left:auto}}
 @media (max-width:520px){.hdr .hright{display:none}.logo{font-size:28px}}
@@ -327,3 +327,12 @@ button{font:inherit;color:inherit}
 }
 .nf{display:flex;flex-direction:column;gap:24px;padding:48px}
 .nf-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+
+/* мобильная версия: текст не заходит под вырез с кнопкой */
+@media (max-width:900px){.has-notch{padding-bottom:108px!important}.svc-card{padding-bottom:116px!important}}
+@media (max-width:380px){.pill{font-size:13px;letter-spacing:.06em}}
+@media (max-width:480px){
+ .hero-card>.cut,.svc-card>.cut{width:calc(100% - 44px)!important}
+ .hero-card>.cut>.pill,.svc-card>.cut>.pill{width:calc(100% - 24px)!important}
+ .hero-card>.inv:not(.inv-t),.svc-card>.inv:not(.inv-t){right:calc(100% - 44px)!important}
+}

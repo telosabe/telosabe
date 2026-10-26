@@ -258,7 +258,7 @@ def build(lang):
 </div>
 <div class="stack" style="gap:24px">
 <div class="card cream flexc"><p class="body">{t['phil_p2']}</p></div>
-<div class="card green flexc" style="min-height:200px"><p class="body">{t['phil_p3']}</p>{notch(84, f'<a class="wa" href="{wa(t["wa_hello"])}" aria-label="{t["wa_btn"]}" title="{t["wa_btn"]}">{WA_ICON}</a>')}</div>
+<div class="card green flexc has-notch" style="min-height:200px"><p class="body">{t['phil_p3']}</p>{notch(84, f'<a class="wa" href="{wa(t["wa_hello"])}" aria-label="{t["wa_btn"]}" title="{t["wa_btn"]}">{WA_ICON}</a>')}</div>
 </div>
 </div>
 </div>
@@ -274,7 +274,7 @@ def build(lang):
 <div class="wrapw stack" style="gap:40px">
 <div class="rule"><h2 class="big">{t['faq_title']}</h2></div>
 <div class="faq-wrap">
-<div class="card green faq-side">
+<div class="card green faq-side has-notch">
 <p class="serif" style="font-size:34px;line-height:1.08">{t['faq_side_h']}</p>
 <p class="body" style="color:#E6E2D2">{t['faq_side_p']}</p>
 {notch(84, f'<a class="wa" href="{wa(t["wa_hello"])}" aria-label="{t["wa_btn"]}" title="{t["wa_btn"]}">{WA_ICON}</a>')}
